@@ -7,11 +7,10 @@ body{
   font-family: "Orbitron";
 }
 
-.container,
 .scoreboard,
 .increment-btn,
 #resetBtn{
-  background-color: #247BA0;
+  background-color: #f7ede2;
 }
 
 .container,
@@ -54,7 +53,7 @@ body{
 .title,
 .increment-btn,
 #resetBtn{
-  color: #E8F1F2;
+  color: #22333b;
 }
 
 .title{
@@ -84,7 +83,7 @@ body{
 .increment-btn,
 #resetBtn{
   border-radius: 5px;
-  border: 1px solid #E8F1F2;
+  border: 1px solid #22333b;
   height: 50px;
   width: 50px;
   cursor: pointer;
@@ -92,13 +91,18 @@ body{
   font-weight: 600;
 }
 
-#resetBtn{
+#resetBtn{  
   font-size: 10px;
   font-weight: 600;
 }
 
+#resetBtn:hover{
+  background-color: #f28482;
+  opacity: 0.7;
+}
+
 .increment-btn:hover{
-  background-color: #006494;
+  background-color: #f28482;
   opacity: 0.7;
 }
 
