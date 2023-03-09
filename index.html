@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Basketball Scoreboard</title>
+  </head>
+
+  <body>
+
+    <main class="container">
+        <h1 class="main-title">Basketball Scoreboard</h1>
+
+        <div class="scoreboard">
+            <div class="score-card">
+                <h1 class="title">home</h1>
+                <div class="score-box">
+                    <h2 id="homeScore" class="home-score"></h2>
+                </div>  
+                <div class="button-div">
+                    <button onclick="homePlus1()" class="increment-btn">+ 1</button>
+                    <button onclick="homePlus2()" class="increment-btn">+ 2</button>
+                    <button onclick="homePlus3()" class="increment-btn">+ 3</button>
+                </div>                    
+            </div>
+            <div>
+            </div>
+            <div>
+                <button id="resetBtn" onclick="resetAll()">RESET</button>
+            </div>
+            <div class="score-card">
+                <h1 class="title">Guest</h1>
+                <div class="score-box">
+                    <h2 id="guestScore" class="guest-score"></h2>
+                </div>  
+                <div class="button-div">
+                    <button onclick="guestPlus1()" class="increment-btn">+ 1</button>
+                    <button onclick="guestPlus2()" class="increment-btn">+ 2</button>
+                    <button onclick="guestPlus3()" class="increment-btn">+ 3</button>
+                </div>                
+            </div>
+        </div>
+    </main>
+    
+    <script src="index.js"></script>
+  </body>
+</html>

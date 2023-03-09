@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Orbitron";
+}
+
+.container,
+.scoreboard,
+.increment-btn,
+#resetBtn{
+  background-color: #247BA0;
+}
+
+.container,
+.scoreboard,
+.score-card,
+.score-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  flex-direction: column;
+  height: 100vh;
+}
+
+.scoreboard{
+  height: 425px;
+  width: 750px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.score-card{
+  flex-direction: column;
+  width: 250px;
+  height: 350px;
+}
+
+.main-title,
+.title{
+  text-transform: uppercase;
+}
+
+.title,
+.increment-btn,
+#resetBtn{
+  color: #E8F1F2;
+}
+
+.title{
+  margin-bottom: 0px;
+}
+
+.score-box{
+  background-color: black;
+  width: 200px;
+  height: 180px;
+  margin: 25px;
+  border-radius: 10px;
+}
+
+.home-score,
+.guest-score{
+  color: rgb(198, 67, 67);
+  font-size: 6em;
+}
+
+.button-div{
+  width: 180px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.increment-btn,
+#resetBtn{
+  border-radius: 5px;
+  border: 1px solid #E8F1F2;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#resetBtn{
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.increment-btn:hover{
+  background-color: #006494;
+  opacity: 0.7;
+}
+
+
+
+
+
