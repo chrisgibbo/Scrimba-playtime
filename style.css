@@ -108,6 +108,15 @@ body{
 
 @media screen and (max-width:600px) {
 
+  .container{
+  flex-direction: column;
+  background-image: url("./pexels-bk-aguilar-945471.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
 
 .scoreboard{
   height: 350px;
@@ -127,7 +136,6 @@ body{
   background-color: black;
   width: 150px;
   height: 150px;
-  margin: 25px;
   border-radius: 10px;
 }
 
@@ -138,25 +146,31 @@ body{
 }
 
 .button-div{
-  width: 100px;
+  width: 130px;
   display: flex;
   justify-content: space-between;
+}
+
+.reset-div{
+  margin: 20px;
 }
 
 .increment-btn,
 #resetBtn{
   border-radius: 5px;
   border: 1px solid #22333b;
-  height: 25px;
-  width: 25px;
+  height: 40px;
+  width: 40px;
   cursor: pointer;
-  font-size: 8px;
+  font-size: 12px;
   font-weight: 600;
 }
 
 #resetBtn{  
   font-size: 10px;
   font-weight: 600;
+  height: 50px;
+  width: 50px;
 }
 
 
