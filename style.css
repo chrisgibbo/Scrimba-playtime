@@ -106,6 +106,63 @@ body{
   opacity: 0.7;
 }
 
+@media screen and (max-width:600px) {
+
+
+.scoreboard{
+  height: 350px;
+  width: 550px;
+  opacity: 0.9;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.score-card{
+  flex-direction: column;
+  width: 150px;
+  height: 250px;
+}
+
+.score-box{
+  background-color: black;
+  width: 150px;
+  height: 150px;
+  margin: 25px;
+  border-radius: 10px;
+}
+
+.home-score,
+.guest-score{
+  color: rgb(198, 67, 67);
+  font-size: 5em;
+}
+
+.button-div{
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.increment-btn,
+#resetBtn{
+  border-radius: 5px;
+  border: 1px solid #22333b;
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+  font-size: 8px;
+  font-weight: 600;
+}
+
+#resetBtn{  
+  font-size: 10px;
+  font-weight: 600;
+}
+
+
+
+}
+
 
 
 
